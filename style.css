@@ -1,0 +1,118 @@
+:root {
+    --dark-color: #0a0a17;
+    --light-color: #fbb68e
+}
+
+body, h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#title {
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    margin: 25px 20px;
+}
+
+#title-info > p {
+    font-style: italic;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+
+    margin: 30px 0px;
+}
+
+.project-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--light-color);
+    color: var(--dark-color);
+
+    width: 70vw;
+    height: 70px;
+
+    border-radius: 5px;
+}
+
+.project-title {
+    margin-left: 30px;
+
+    font-style: italic;
+}
+
+.project-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    background-color: var(--dark-color);
+    border-radius: 10px;
+}
+
+.github-logo {
+    scale: .6;
+}
+
+#past-jobs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+ul {
+    width: 70vw;
+
+    list-style: none;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    margin: 63px 0px;
+}
+
+.job {
+    font-size: .6em;
+}
+
+.summary {
+    font-size: .8em;
+    margin: 10px 0px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    height: 9vh;
+    align-items: flex-start;
+}
