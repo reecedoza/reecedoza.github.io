@@ -40,6 +40,10 @@ body {
     #title-info {
         margin: 90px 185px;
     }
+
+    #footer {
+        align-items: flex-end;
+    }
 }
 
 #title-info > p {
