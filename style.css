@@ -32,6 +32,16 @@ body {
     margin: 25px 20px;
 }
 
+@media (min-width: 900px) {
+    body {
+        font-size: 15px
+    }
+
+    #title-info {
+        margin: 90px 185px;
+    }
+}
+
 #title-info > p {
     font-style: italic;
 }
