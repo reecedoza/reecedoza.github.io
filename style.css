@@ -4,11 +4,11 @@
 }
 
 @media (min-width: 900px) {
-    body {
+    html body {
         font-size: 15px
     }
 
-    #title-info {
+    body #title-info {
         margin: 90px 185px;
     }
 
